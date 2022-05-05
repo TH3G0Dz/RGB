@@ -1,0 +1,50 @@
+@keyframes color {
+    0% {
+        background-color: rgb(255,0,0);
+        background-color: linear-gradient(rgb(255,0,0), rgb(255,125,0));
+    }
+    8% {
+        background-color:  rgb(255, 125, 0);
+        background-color: linear-gradient(rgb(255,125,0), rgb(255,255,0));
+    }
+    16% {
+        background-color:  rgb(255, 255, 0);
+        background-color: linear-gradient(rgb(255,255,0), rgb(125,255,0));
+    }
+    24% { 
+        background-color:  rgb(125, 255, 0);
+        background-color: linear-gradient(rgb(125,255,0), rgb(0,255,0));
+    }
+    32% {
+        background-color:  rgb(0, 255, 0);
+        background-color: linear-gradient(rgb(0,255,0), rgb(0,255,125));
+    }
+    40% {
+        background-color:  rgb(0, 255, 125);
+        background-color: linear-gradient(rgb(0,255,125), rgb(0,255,255));
+    }
+    48% {
+        background-color:  rgb(0, 255, 255);
+        background-color: linear-gradient(rgb(0,255,255), rgb(0,125,255));
+    }
+    56% {
+        background-color:  rgb(0, 125, 255);
+        background-color: linear-gradient(rgb(0,125,255), blue);
+    }
+    64% {
+        background-color:  rgb(0, 0, 255);
+        background-color: linear-gradient(blue, rgb(125,0,255));
+    }
+    72% {
+        background-color:  rgb(125,0,255);
+        background-color: linear-gradient(rgb(125,0,255), rgb(255, 0, 255));
+    }
+    80% {
+        background-color:  rgb(255, 0, 255);
+        background-color: linear-gradient(rgb(255,0,255), rgb(255,0,125));
+    }
+    100%{
+        background-color:  rgb(255,0,125);
+        background-color: linear-gradient(rgb(255,0,125), red);
+    }
+  }
