@@ -1,2 +1,2 @@
 # RGB
-RGB de diversas cores para background
+RGB de diversas cores para background em css
